@@ -1,0 +1,99 @@
+
+//🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄 Problema 02 🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄
+
+// Generar una función que tenga 4 parámetros de tipo decimal y devuelva el promedio cualitativo de los parámetros.
+
+// Si el promedio es:
+
+// De 0 a 5 el promedio cualitativo es Regular
+// De 5.1 a 8 el promedio es Bueno
+// De 8.1 a 9 el promedio es Muy Bueno
+// De 9.1 a 10 el promedio es Sobresaliente.
+// A la función se la debe llamar desde un método principal. Los parámetros necesarios para llamar a la función, 
+// deben ser ingresados solicitados al usuario.
+
+// En la función principal se debe imprimir los siguiente:
+
+// El promedio de las notas: 10, 5, 8, 7 es Bueno
+
+1. Inicio
+2. funcion principal()
+3. 	mensajeFinal, x(100)[{A-Z}, {a-z}, {0-n}, {BS, :}]
+4.	nota1, d[0-n]
+5.	nota2, d[0-n]
+6.      nota3, d [0-n]
+7.	nota4, d [0-n]
+
+8.	Escribir "Ingrese la primera nota"
+9.	Leer nota1
+10.	Escribir "Ingrese la segunda nota"
+11.	Leer nota2
+12.	Escribir "Ingrese la tercera nota"
+.	Leer nota3
+.	Escribir "Ingrese la cuarta nota"
+.	Leer nota4
+
+.	mensajeFinal <-- obtenerNotaCualitativa(nota1, nota2, nota3, nota4) // deja de valor nota x y ahora vale mensaje
+.	Escribir mensajeFinal
+
+. Fin funcion principal
+
+. funcion obtenerNotaCualitativa(nota1, d; nota2, d; nota3, d; nota4, d): x
+.	operacionP, d[0-n]
+.	mensaje, x(100)[{A-Z}, {a-z}, {0-n}, {BS, :}]
+
+.	operacionP <-- (nota1 + nota2 + nota3 + nota4) / 4
+	
+	Si (operacionP >= 0 and operacionP <= 5 ) entonces
+.	      mensaje <-- "El promedio de las notas " + nota1 + ", " + nota2 + ", " + nota3 + ", " + nota4 + " es Regular."
+
+	De lo Contrario
+
+		Si (operacionP >= 5.1 and operacionP <= 8 ) entonces
+.	   		mensaje <-- "El promedio de las notas " + nota1 + ", " + nota2 + ", " + nota3 
+				     + ", " + nota4 + " es Bueno."	
+
+		De lo Contario
+
+		      Si ( operacionP >= 8.1 and operacionP <= 9 ) entonces
+.	                     mmensaje <-- "El promedio de las notas " + nota1 + ", " 
+					   + nota2 + ", " + nota3 + ", " + nota4 + " es Muy Bueno."
+
+		      De lo Contario
+
+		            Si ( operacionP >= 9 and operacionP <= 10 ) entonces
+.	                         mmensaje <-- "El promedio de las notas " + nota1 + ", " 
+					      + nota2 + ", " + nota3 + ", " + nota4 + " es Sobresaliente."
+			    FinSi
+		       FinSi
+		 FinSi
+ 	   FinSi
+
+.	retornar mensaje
+. Fin funcion obtenerNotaCualitativa
+
+. Fin
+
+// Feliz Navidad y Prospero año nuevo 🎄🎄🎄
+// Que sea un año bueno, lleno de paz y alegria en nuestras vidas
+// Enjoy it 👏
+
+//🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

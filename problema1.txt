@@ -1,0 +1,120 @@
+
+// ****************************************** Problema 01 ************************************************************
+
+// Generar una solución que implemente 3 funciones. Que permitan calcular el área de un cuadrado, 
+// área de un triángulo y área de un rectángulo.
+
+// Cada función debe solicitar los datos necesarios y devolver el valor correspondiente. 
+// Se debe invocar a las funciones desde un método principal.
+// Si el usuario ingresa 1 se llama a la función obtenerAreaCuadrado; 
+// 2 se llama al función obtenerAreaTriangulo; 
+// 3 se llama al función obtenerAreaCuadrado.
+
+// El área del cuadrado es igual a lado x lado x lado x lado
+// El área del triángulo es igual a (base x altura)/2
+// El área del rectángulo es igual a base x altura.
+
+1. Inicio
+2. FuncionPrincipal()
+3. numero, i[0-n]
+4. mensajeFinal, x(200)[{A-Z}, {a-z}, {BS, *, / , = }, {\}]
+
+5. Escribir "(1)Area del Cuadrado,. (2)Triangulo, (3)Rectangulo"
+6. Escribir "Ingrese un numero del 1 al 3 para realizar el proceso"
+7. Leer numero
+
+8. Si (numero == 1) entonces
+
+9.      lado1, d[0-n]
+10.     lado2, d[0-n]
+11.     lado3, d[0-n]
+12.     lado4, d[0-n]
+
+13.     Escribir "Ingrese la medida del lado 1"
+14.     Leer lado1
+15.     Escribir "Ingrese la medida del lado 2"
+16.     Leer lado2
+17.     Escribir "Ingrese la medida del lado 3"
+18.     Leer lado3
+19.     Escribir "Ingrese la medida del lado 4"
+20.     Leer lado4
+
+21.     mensajeFinal <-- obtenerAreaCuadrado(lado1, lado2, lado3 ,lado4 , lado5)
+
+22.     Escribir mensajeFinal
+
+23. De lo contrario
+24.     Si (numero == 2) entonces
+
+25.         base, d[0-n]
+26.         altura, d[0-n]
+
+27.         Escribir "Ingrese la medida de la base"
+28.         Leer base
+29.         Escribir "Ingrese la medida de la altura"
+30.         Leer altura
+
+31.         mensajeFinal <-- obtenerAreaTriangulo(base, altura)
+
+32.         Escribir mensajeFinal
+
+33.     De lo contrario 
+34.         Si (numero == 3) entonces
+
+35.            base, d[0-n]
+36.            altura, d[0-n]
+
+37.            Escribir "Ingrese la medida de la base"
+38.            Leer base
+39.            Escribir "Ingrese la medida de la altura"
+40.            Leer altura
+
+41.	       mensajeFinal <-- obtenerAreaRectangulo(base, altura)
+
+42.            Escribir mensajeFinal
+43.	FinSi
+44.    FinSi
+45. FinSi
+46. Fin funcionPrincipal
+
+47.  función obtenerAreaCuadrado(ld1, d; ld2, d; ld3, d; ld4, d): x
+48.  	operacion, d[0-n]
+49.  	mensaje, x(200)[{A-Z}, {a-z}, {BS, *, / , = }, {\}]
+
+50. 	 operacion <-- ld1 * ld2 * ld3 * ld4
+51.  	mensaje <-- "El area del Cuadrado es:" + "\n" + ld1 + " * " + ld2 + " * " +ld3 + " * " +ld4 + " = " + operacion
+
+52.  	retornar mensaje
+
+53.  fin función obtenerAreaCuadrado
+
+54.  función obtenerAreaTriangulo(base, d; altura, d): x
+
+55.  	operacion, d[0-n]
+56.  	mensaje, x(200)[{A-Z}, {a-z}, {BS, *, / , = }, {\}]
+
+57.  	operacion <-- (base * altura) / 2
+
+58.  	mensaje <-- "El area del Triangulo es:" + "\n" + base + " * " + "altura " + " = " + operacion
+59.  	retornar mensaje
+
+60.  fin función obtenerAreaTriangulo
+
+61.  función obtenerAreaRectangulo(base, d; altura, d): d
+
+62.  	operacion, d[0-n]
+63. 	 mensaje, x(200)[{A-Z}, {a-z}, {BS, *, / , = }, {\}]
+
+64.  	operacion <-- base * altura
+
+65.  	mensaje <-- "El area del Rectangulo es:" + "\n" + base + " * " + "altura " + " = " + operacion
+66.  	retornar mensaje
+
+67.  fin función obtenerAreaRectangulo
+
+68. Fin
+
+// 🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄
+// 🎄🎄					Feliz navidad y prospero año                                   🎄🎄
+// 🎄🎄					 🎉✨ Felices Fiestas ✨🎉                                      🎄🎄
+// 🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄
